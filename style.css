@@ -82,13 +82,13 @@ display: flex;
 
 
 /* phone media design  */
-     @media (width <= 350px) {
+     @media (width <= 348px) {
         
 /* body  */
 body{
     background-color: white;
     padding: 0px;
-    width: 350px;
+    width: 348px;
 }
 
 /* Top links */
