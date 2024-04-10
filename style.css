@@ -86,7 +86,7 @@ display: flex;
         
 /* body  */
 body{
-    background-color: white;
+    background-color: rgb(7, 7, 12);
     padding: 0px 5px;
 }
 
@@ -103,6 +103,7 @@ body{
  }
  /* link targets */
  .header a{
+   flex-wrap: wrap;
    display: flex;
     flex-direction: column;
     font-size: 7px;
@@ -118,15 +119,16 @@ body{
  .pic{
     margin: 0px 0px;
     align-items: center;
-    height: 10px;
+    /* width: 9000px; */
+align-items: center;
  }
  .pic .img{
-   width: 10px;
    height: 10px;
    display: grid;
  }
   /* leftside word  */
  .word{
+   flex-wrap: wrap;
     margin: 0px;
     display: grid;
     color: white;
@@ -152,7 +154,18 @@ display: flexbox;
     margin: 0px;
     flex-wrap: wrap;
 }
+.slide .pic {
+   display: grid;
+   gap: 18px;
+   grid-template-columns: repeat(6, 1fr);
+   overflow-x: auto;
+}
+.slide .pic .imageitem{
+   width: 325px;
+   /* height: 400px; */
+   object-fit: cover;
 
+}
 /* footer of the index page  */
 .footer{
     display: flex;
@@ -177,5 +190,9 @@ display: flexbox;
 
      .mycontact{
         display: grid;
+        margin: 0px -30px;
+     }
+     .mycontact .image1{
+      margin: 0px;
      }
     }
