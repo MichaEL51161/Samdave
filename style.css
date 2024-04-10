@@ -88,7 +88,7 @@ display: flex;
 body{
     background-color: white;
     padding: 0px;
-    width: 280px;
+    width: 400px;
 }
 
 /* Top links */
@@ -122,7 +122,7 @@ body{
     align-items: center;
     /* width: 9000px; */
 align-items: center;
-width: 275px;
+width: 400px;
  }
  .pic .img{
    height: 10px;
@@ -131,7 +131,7 @@ width: 275px;
  }
   /* leftside word  */
  .word{
-   width: 275px;
+   width: 400px;
    font-size: 12px;
    text-align: justify;
    flex-wrap: wrap;
@@ -142,7 +142,7 @@ width: 275px;
 
  /* rightsideword */
  .wordi{
-   width: 275px;
+   width: 400px;
    font-size: 12px;
    text-align: justify;
     margin: 0px 0px;
@@ -174,7 +174,7 @@ display: flexbox;
    overflow-x: auto;
 }
 .slide .pic .imageitem{
-   width: 325px;
+   width: 400px;
    /* height: 400px; */
    object-fit: cover;
 
@@ -187,7 +187,7 @@ display: flexbox;
         text-align: center;
         height: 20px;
         align-items: center;
-        margin: -40px -5px;
+        margin: -40px -23px;
      }
      /* link targets */
      .footer a{
@@ -196,31 +196,31 @@ display: flexbox;
         color: white;
         border: 1px solid rgb(196, 123, 15);
         border-top: 5px;
-        margin: 0px 10px;
+        margin: 0px 20px;
         border-radius: 5px;
-        padding: 0px;
+        padding: 0px 10px;
         text-decoration: none;
      }
 
      .contact{
-      margin: -3px -90px;
-      width: 275px;
+      margin: -3px -95px;
+      width: 400px;
       padding: 0px 60px;
      }
      .mycontact{
         display: grid;
-        margin: 0px -25px;
+        margin: 0px -2px;
      }
      .contact .moveit{
-      padding: 0px 55px;
-      width: 275px;
+      padding: 0px 40px;
+      width: 400px;
      }
 
      .contact2 img{
-      width: 285px;
+      width: 405px;
      }
      .image1 img{
-      width: 305px;
+      width: 425px;
      }
      /* .mycontact .img{
       width: 275px;
