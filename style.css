@@ -82,13 +82,13 @@ display: flex;
 
 
 /* phone media design  */
-     @media (width <= 400px) {
+     @media (width <= 380px) {
         
 /* body  */
 body{
     background-color: white;
     padding: 0px;
-    width: 400px;
+    width: 380px;
 }
 
 /* Top links */
@@ -122,7 +122,7 @@ body{
     align-items: center;
     /* width: 9000px; */
 align-items: center;
-width: 400px;
+width: 380px;
  }
  .pic .img{
    height: 10px;
@@ -131,7 +131,7 @@ width: 400px;
  }
   /* leftside word  */
  .word{
-   width: 400px;
+   width: 380px;
    font-size: 12px;
    text-align: justify;
    flex-wrap: wrap;
@@ -142,7 +142,7 @@ width: 400px;
 
  /* rightsideword */
  .wordi{
-   width: 400px;
+   width: 380px;
    font-size: 12px;
    text-align: justify;
     margin: 0px 0px;
@@ -187,7 +187,7 @@ display: flexbox;
         text-align: center;
         height: 20px;
         align-items: center;
-        margin: -40px -23px;
+        margin: -40px -3px;
      }
      /* link targets */
      .footer a{
@@ -203,24 +203,24 @@ display: flexbox;
      }
 
      .contact{
-      margin: -3px -95px;
-      width: 400px;
-      padding: 0px 60px;
+      margin: -3px -100px;
+      width: 380px;
+      padding: 0px 50px;
      }
      .mycontact{
         display: grid;
         margin: 0px -2px;
      }
      .contact .moveit{
-      padding: 0px 40px;
-      width: 400px;
+      padding: 0px 30px;
+      width: 380px;
      }
 
      .contact2 img{
-      width: 405px;
+      width: 365px;
      }
      .image1 img{
-      width: 425px;
+      width: 380px;
      }
      /* .mycontact .img{
       width: 275px;
