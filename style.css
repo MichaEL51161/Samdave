@@ -101,6 +101,7 @@ body{
     height: 20px;
     /* justify-content: space-around; */
     align-items: center;
+    margin: 0px -7px;
  }
  /* link targets */
  .header a{
@@ -135,7 +136,7 @@ width: 380px;
    font-size: 12px;
    text-align: justify;
    flex-wrap: wrap;
-    margin: 0px;
+    margin: 0px -7px;
     display: grid;
     color: black;
  }
